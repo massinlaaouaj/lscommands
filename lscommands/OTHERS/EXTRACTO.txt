@@ -1,0 +1,10 @@
+https://ss64.com/bash/
+
+<object data="http://cb.vu" width="400" height="400"></object>
+
+IDEA> 	Tener un cmd online para provar el comando
+	Tener un botón de "more" donde se desplegara información extendida
+	Al buscar el resultado saldra abajo con un iframe llamando a la pagina que contiene la info de los comandos, en vez de abrir una nueva pagina solo para ese comando, con fondo negro para diferenciar
+	Se podra buscar mas de un comando en el buscador separados por una coma. Exmpl; ls,wget
+	Se podra buscar si escribimos el comando y ademas uno de sus atributos.  Exmpl; ls -l
+	Opcion de poder guardar los comandos que has buscado para despues consultarlo con facilidad, esta funcion permitira añadir los comandos que nos interesen en un fitxero como pastebin para consultarlo mas veces [MEJORAR]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LS COMMANDS</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/style/main.css">
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" borde="0">
+        
+    </head>
+
+    <body>
+        
+        <h1 class="titulo">LS COMMANDS</h1>
+        
+        <div class="searchbar">
+            <iframe id="buscar" class="s" src="search.htm"></iframe>
+        </div>
+        
+        <div id="consola">
+            <object class="terminal_bash" data="http://cb.vu" width="400" height="400"></object>
+        </div>
+        
+        <script type="text/javascript">
+            function mostrar() {
+                
+            var variable = document.getElementsById("consola");
+                
+                if (variable.style.display === "none") {
+                    
+                    variable.style.display = "block";
+                } else {
+                    
+                    variable.style.display = "none";
+                }
+
+
+            }
+
+            mostrar();
+        </script>
+        
+    </body>
+</html>
