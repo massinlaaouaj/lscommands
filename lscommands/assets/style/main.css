@@ -37,3 +37,10 @@ html,body{
 #consola {
     display: none;
 }
+
+.div {
+    display: flex;
+    margin:0px;
+    height:100%;
+    align-items: center;
+}
