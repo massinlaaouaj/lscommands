@@ -18,5 +18,13 @@ $(
             })
             
         })
+    
+        //Para deshabilitar la teclat Enter
+        $('#buscar_bar').keypress(function(e) {
+            if (e.which == 13) {
+                return false;
+            }
+        });
+    
     }
 );

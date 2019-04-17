@@ -15,5 +15,4 @@ IDEA> 	Tener un cmd online para provar el comando
 CORREGUIR>	Al tener mayusculas de una advertencia o un mensaje cuando se muestra en el comando diciendo:   (AVD: This command is in lowercase)
 		La barra de busqueda tiene que salir y no sustituirlo por el texto
 		La terminal tiene que ocultarse y mostrar después
-		No permitir dar "Enter", para así no recargar lo escrito
 		El color del texto resultado, tiene que estar en blanco cuando el fondo sea negro
