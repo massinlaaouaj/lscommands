@@ -8,6 +8,16 @@ html,body{
     text-align: center;
 }
 
+.table {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 0px;
+    width: 30px; 
+    height: 20px;
+}
+
 .searchbar {
     display: flex;
     margin:0px;
@@ -36,4 +46,11 @@ html,body{
 
 #consola {
     display: none;
+}
+
+.div {
+    display: flex;
+    margin:0px;
+    height:100%;
+    align-items: center;
 }

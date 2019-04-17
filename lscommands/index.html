@@ -7,10 +7,25 @@
         <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/style/main.css">
         <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" borde="0">
-        
     </head>
-
+    
+    <!--<script src="assets/js/terminal_bash.js"></script>-->
+    <script src="assets/js/colors.js"></script>
+    
+    <style type="text/css">
+		.menu{display: flex;
+			  flex-direction: row-reverse;}	
+	</style>
+    
     <body>
+        
+        <table class="table">
+            <tr>
+                <td style="background-color: white; width: 30px; height: 20px" onclick="background('white')"></td>
+                <td style="background-color: black ; width: 30px; height: 20px" onclick="background('black')"></td>
+                <td style="background-color: gray; width: 30px; height: 20px" onclick="background('gray')"></td>
+            </tr>
+        </table>
         
         <h1 class="titulo">LS COMMANDS</h1>
         
@@ -21,25 +36,6 @@
         <div id="consola">
             <object class="terminal_bash" data="http://cb.vu" width="400" height="400"></object>
         </div>
-        
-        <script type="text/javascript">
-            function mostrar() {
-                
-            var variable = document.getElementsById("consola");
-                
-                if (variable.style.display === "none") {
-                    
-                    variable.style.display = "block";
-                } else {
-                    
-                    variable.style.display = "none";
-                }
-
-
-            }
-
-            mostrar();
-        </script>
         
     </body>
 </html>

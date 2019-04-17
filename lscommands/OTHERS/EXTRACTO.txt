@@ -8,3 +8,12 @@ IDEA> 	Tener un cmd online para provar el comando
 	Se podra buscar mas de un comando en el buscador separados por una coma. Exmpl; ls,wget
 	Se podra buscar si escribimos el comando y ademas uno de sus atributos.  Exmpl; ls -l
 	Opcion de poder guardar los comandos que has buscado para despues consultarlo con facilidad, esta funcion permitira añadir los comandos que nos interesen en un fitxero como pastebin para consultarlo mas veces [MEJORAR]
+	Hacer que la pagina se sobresalga (como un video en Opera) y lo puedas usar fuera
+	Autocompletar los comandos
+	Buscar una descripción y que salga el comando. Por ejemplo; extract files --> tar (o más)
+
+CORREGUIR>	Al tener mayusculas de una advertencia o un mensaje cuando se muestra en el comando diciendo:   (AVD: This command is in lowercase)
+		La barra de busqueda tiene que salir y no sustituirlo por el texto
+		La terminal tiene que ocultarse y mostrar después
+		No permitir dar "Enter", para así no recargar lo escrito
+		El color del texto resultado, tiene que estar en blanco cuando el fondo sea negro
