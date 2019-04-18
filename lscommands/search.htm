@@ -4,133 +4,14 @@
 	<meta charset="UTF-8">
 	<title>searchit</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style/search-it.css">
 </head>
     
+    <!--Para usar JQuery-->
     <script
   src="https://code.jquery.com/jquery-3.4.0.min.js"
   integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
   crossorigin="anonymous"></script>
-
-<style type="text/css">@import url(http://weloveiconfonts.com/api/?family=entypo);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
-
-*, div {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.container {
-    display: block;
-    width: 70%;
-    margin: -10px auto 0 auto;
-    background: #fff;
-    height: 100vh;
-}
-
-.sw {
-  float: left;
-  width: 100%;
-  height: 80px;
-  background: #2c2c32;
-  padding: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-shadow: 0 2px 0 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 0 0px rgba(0, 0, 0, 0.1);
-}
-
-.sw form {
-  float: left;
-  width: 100%;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.sw a.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 80px;
-  margin-right: 10px;
-  -webkit-transition: all 0.05s ease-in-out;
-  transition: all 0.05s ease-in-out;
-  visibility: visible;
-  opacity: 1;
-}
-
-.sw a.logo svg {
-  max-width: 100%;
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.sw .search {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  outline: none;
-  border: none;
-  border-radius: 0;
-  background: #fff;
-  padding: 10px;
-  font-family: 'Roboto', sans-serif;
-  height: 50px;
-  -webkit-transition: all 0.05s ease-in-out;
-  transition: all 0.05s ease-in-out;
-  -webkit-appearance: none;
-}
-.sw .search:focus {
-  height: 80px;
-  margin-left: -15px;
-    margin-right: -15px;
-  padding: 15px 15px;
-}
-.go {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
-  max-width: 50px;
-  display: inline-block;
-  border: none;
-  height: 50px;
-  -webkit-transition: all 0.05s ease-in-out;
-  transition: all 0.05s ease-in-out;
-  font-size: 21px;
-  outline: none;
-}
-    
-    .content {
-        font-family: 'Ubuntu Mono', monospace;
-    }
-
-    </style>
     
     <script src="assets/js/search-it.js"></script>
     
@@ -139,11 +20,12 @@
     <div class="sw">
         <form>
           <input id="buscar_bar" name="searchbar" type="search" class="search" placeholder="Write here your command to search" autofocus/>
-
         </form>
       </div>
+    
+    <div id="mayus"></div>
         
-        <div id="container" class="content"></div>
+    <div id="container" class="content"></div>
         
 </body>
 </html>
