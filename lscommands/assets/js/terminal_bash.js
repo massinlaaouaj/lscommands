@@ -1,12 +1,12 @@
-function mostrar() {
+function mostrar(e) {
+                        
+    var terminal = document.getElementById("consola");
     
-    var variable = document.getElementById("consola");
-    
-    if(variable.style.display = "none"){
-            variable.style.display = "block";
+    if(terminal.style.display == "none"){
+        terminal.style.display = "block";
     } else {
-           variable.style.display = "none";
-               }
+        terminal.style.display = "none";
+    }
 }
 
-mostrar();
+//onclick="mostrar()"

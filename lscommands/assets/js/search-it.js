@@ -14,13 +14,17 @@ $(document).ready(function() {
                     
                     //Para mostrar y detectar si ha escrito una letra en mayusculas
                     if (search.match(mayus)) {
-                        console.log("<p class='content'>mayus</p>");
+                        
+                        //Mostrar el mensaje de alerta cuando la letra es mayuscula y printarlo en el div con id "mayus"
                         $('#mayus').html("<b><p class='content'>ALERT MAYUS DETECT</p></b>");
+                        
+                      //Se deja en blanco si no hay mayus, para que no quede el mensaje cuando borremos la letra mayus
                     } else{
                         
                         $('#mayus').html("");
                     }
                     
+                    //Printar en el div con id "container" el resultado del post, que pedimos al prove.php
                     $('#container').html(response);
                 }
             })
@@ -33,6 +37,5 @@ $(document).ready(function() {
                 return false;
             }
         });
-    
     }
 );

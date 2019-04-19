@@ -123,5 +123,6 @@
 }
     
 .content {
+    margin-top: 20px;
     font-family: 'Ubuntu Mono', monospace;
 }
