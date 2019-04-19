@@ -6,32 +6,52 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/style/main.css">
+        <link rel="stylesheet" type="text/css" href="assets/style/search-it.css">
         <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" borde="0">
     </head>
     
     <!--<script src="assets/js/terminal_bash.js"></script>-->
+    <script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+    
+    <script src="assets/js/search-it.js"></script>
+    
     <script src="assets/js/colors.js"></script>
-    
-    <style type="text/css">
-		.menu{display: flex;
-			  flex-direction: row-reverse;}	
-	</style>
-    
+        
     <body>
         
         <table class="table">
             <tr>
-                <td style="background-color: white; width: 30px; height: 20px" onclick="background('white')"></td>
-                <td style="background-color: black ; width: 30px; height: 20px" onclick="background('black')"></td>
-                <td style="background-color: gray; width: 30px; height: 20px" onclick="background('gray')"></td>
+                <td style="background-color: white; width: 40px; height: 20px" onclick="background('white')"></td>
+                <td style="background-color: black ; width: 40px; height: 20px" onclick="background('black')"></td>
+                <td style="background-color: gray; width: 40px; height: 20px" onclick="background('gray')"></td>
+                <td style="background-color: #F7F55F; width: 40px; height: 20px" onclick="background('#F7F55F')"></td>
+                <td style="background-color: #66a1ee; width: 40px; height: 20px" onclick="background('#66a1ee')"></td>
             </tr>
         </table>
         
         <h1 class="titulo">LS COMMANDS</h1>
         
         <div class="searchbar">
-            <iframe id="buscar" class="s" src="search.htm"></iframe>
+            <div class="sw">
+                <form>
+                  <input id="buscar_bar" name="searchbar" type="search" class="search" placeholder="Write here your command to search" autofocus/>
+                </form>
+            </div>
         </div>
+        
+        <div id="mayus" class="searchbar"></div>
+        
+        <div class="searchbar">
+            
+            <div id="container" class="content"></div>
+        </div>
+    
+        <!--<div class="searchbar">
+            <iframe id="buscar" class="s" src="search.htm"></iframe>
+        </div>-->
         
         <div id="consola">
             <object class="terminal_bash" data="http://cb.vu" width="400" height="400"></object>
