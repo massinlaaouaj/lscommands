@@ -1,2 +1,14 @@
 # LSCOMMANDS
-Page for search a commands bash
+Page for search and testing commands on bash.
+
+
+  #FUNCTIONS
+   You can search two or more commands using / to split the commands that you write. Example: ls/wget or ls/wget/clear and more
+   You can choose your favorite color color background
+   Alert upper case when you write
+   Using Ajax for don't fresh the page
+   
+  #FUTURE
+   This page as time goes by, it will evolve and improve.
+   
+   
