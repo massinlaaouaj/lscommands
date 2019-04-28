@@ -1,4 +1,4 @@
-**# LSCOMMANDS**
+<h1> # LSCOMMANDS </h1>
 
 Page for search and testing commands on bash.
 
