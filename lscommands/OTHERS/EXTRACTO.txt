@@ -9,6 +9,7 @@ IDEA> 	Tener un botón de "more" o "+" donde se desplegara información extendida
 	Otro buscador donde deje hacer un switch entre la barra de busqueda del comando en si (actual), i al hacer switch cambie a otro buscador donde te deje buscar por la descripción del comando
 	Habrà un desplegable donde te deje escoguer un lenguaje (bash, powershell,...), y si no sabes habrà una opción de "I don't know..." o "ALL", en el que buscara en el fitxero donde habran todos los comando de todos los lenguajes
 	Habrà un terminal para cada lenguaje, y lo detectara automaticamente el lenguaje elegido
+	Al clicar sobre la palabra del resultado del/os comandos ($ comando ), irà a la pàgina numero 1 que en la busqueda de google da, es decir si buscamos ls, al clicar sobre ($ ls ), nos reedirige a la primera pagina donde la busqueda al buscador de Google será "ls linux", i el primer resultado será la página a reedirigir
 	#Poder descargar la página y que la gente lo pueda utilizar y insertar en sus página como si fuera un iframe
 	[HECHO] Tener un cmd online para provar el comando
 	[HECHO] Al buscar el resultado saldra abajo con un iframe llamando a la pagina que contiene la info de los comandos, en vez de abrir una nueva pagina solo para ese comando, con fondo negro para diferenciar

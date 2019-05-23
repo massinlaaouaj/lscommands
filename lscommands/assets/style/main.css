@@ -24,6 +24,31 @@ html,body{
     width: 50%;
 }
 
+.search {
+    margin-top: 15px;
+    padding: 15px;
+    width: 500px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    height: 100%;
+    border: 0px;
+    background: #f1f1f1;
+    transition: box-shadow .3s;
+}
+
+.search:hover {
+    -webkit-box-shadow: 1px 9px 16px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 9px 16px -1px rgba(0,0,0,0.5);
+    box-shadow: 1px 9px 16px -1px rgba(0,0,0,0.5);
+}
+
+.content {
+    margin-top: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
 .s {
     margin-left: auto;
     margin-right: auto;
