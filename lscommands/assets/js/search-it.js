@@ -1,15 +1,22 @@
 $(document).ready(function() {
-    
-        //
+ 	
+	//Recogue el valor de la opción del select (por defecto es el "bash" al tener en el option el atributo "selected")
+	let language = $('#language').val();
+	
+	//En caso de que el usuario cambie de opción, se le assignara el nuevo valor a la variable
+	$('#language').change(function(e) {
+		language = $(this).val();
+	});
+	
         $('#buscar_bar').keyup(function(e) {
             let search = $('#buscar_bar').val();
-            
+            console.log("="+language);
             var mayus=/[A-Z]/g;
             
             $.ajax({
                 url: 'assets/php/prove.php',
                 type: 'POST',
-                data: { search },
+                data: { search,language }, //Se le enviara las dos variables, ya que una depende de otra y tener dos ajax separados no puede ser porque la otra variable no tiene valor
                 success: function(response) {
                     
                     //Para mostrar y detectar si ha escrito una letra en mayusculas

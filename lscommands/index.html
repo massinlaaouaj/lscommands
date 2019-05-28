@@ -16,20 +16,30 @@
   crossorigin="anonymous"></script>
     
     <script src="assets/js/search-it.js"></script>
-    
     <script src="assets/js/colors.js"></script>
         
     <body>
         
-        <table class="table">
-            <tr>
-                <td style="background-color: white; width: 40px; height: 20px" onclick="background('white')"></td>
-                <td style="background-color: black ; width: 40px; height: 20px" onclick="background('black')"></td>
-                <td style="background-color: gray; width: 40px; height: 20px" onclick="background('gray')"></td>
-                <td style="background-color: #F7F55F; width: 40px; height: 20px" onclick="background('#F7F55F')"></td>
-                <td style="background-color: #66a1ee; width: 40px; height: 20px" onclick="background('#66a1ee')"></td>
-            </tr>
-        </table>
+        <div class="table">
+            <table>
+                <tr>
+                    <td style="background-color: white; width: 40px; height: 20px" onclick="background('white')"></td>
+                    <td style="background-color: black ; width: 40px; height: 20px" onclick="background('black')"></td>
+                    <td style="background-color: gray; width: 40px; height: 20px" onclick="background('gray')"></td>
+                    <td style="background-color: #F7F55F; width: 40px; height: 20px" onclick="background('#F7F55F')"></td>
+                    <td style="background-color: #66a1ee; width: 40px; height: 20px" onclick="background('#66a1ee')"></td>
+                </tr>
+            </table>
+        
+            <select name="language" id="language" class="select">
+                <option selected value="bash">Bash</option>
+                <option value="cmd">Windows CMD</option>
+				<option value="html">HTML</option>
+				<option value="all">I don't know, just search it</option>
+            </select>
+        </div>
+        
+        
         
         <h1 class="titulo">LS COMMANDS</h1>
         

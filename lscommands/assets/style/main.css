@@ -16,6 +16,21 @@ html,body{
     margin-top: 0px;
 }
 
+.select {
+    margin-top: 4px;
+    margin-right: 35px;
+    padding: 10px;
+    width: 130px;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    height: 100%;
+    border: 0px;
+    background: #f1f1f1;
+    transition: box-shadow .3s;
+}
+
 .searchbar {
     display: flex;
     justify-content: center;
@@ -45,7 +60,7 @@ html,body{
 }
 
 .content {
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: 'Ubuntu Mono', monospace;
 }
 
@@ -84,6 +99,7 @@ html,body{
 
 .image-cmd:hover {
     box-shadow: 2px 10px 15px -1px rgba(112,112,112,1);
+    transition: box-shadow .3s;
 }
 
 .cmd-float {
