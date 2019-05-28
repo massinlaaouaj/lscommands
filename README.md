@@ -17,9 +17,9 @@ Page for search and testing commands on bash.
    
    
    
-   ![LS](https://user-images.githubusercontent.com/48721794/58285347-e2893300-7dac-11e9-84c9-a9cdb2171c81.PNG)
-   ![clear](https://user-images.githubusercontent.com/48721794/58285414-00569800-7dad-11e9-9cc8-2737cce359bc.PNG)
-   ![cl al](https://user-images.githubusercontent.com/48721794/58285448-0d738700-7dad-11e9-9b29-863b5d8e6476.PNG)
+   ![lscommands](https://user-images.githubusercontent.com/48721794/58492054-73c32580-8170-11e9-9789-a72908f1a6c9.gif)
+   ![ul](https://user-images.githubusercontent.com/48721794/58492091-89384f80-8170-11e9-8275-d8dd8a17d052.png)
+   ![opera_lEOy8HOLYg](https://user-images.githubusercontent.com/48721794/58492148-a2d99700-8170-11e9-94c5-3ecbf424e398.png)
    
    
    
