@@ -9,12 +9,7 @@ Page for search and testing commands on bash.
    You can choose your favorite color background<br>
    Detect and alert upper case while you are writing<br>
    Using Ajax for don't fresh the page, and see the results immediately<br>
-   
-  #FUTURE
-  
-   This page as time goes by, it will evolve and improve<br>
-   I have enough desire and illusions with this project!<br>
-   
+    
    
    
    ![lscommands](https://user-images.githubusercontent.com/48721794/58492054-73c32580-8170-11e9-9789-a72908f1a6c9.gif)
