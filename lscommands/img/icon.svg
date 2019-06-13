@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+    <metadata>
+        <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+        <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+                    <xmp:CreatorTool>Adobe Photoshop CC 2018 (Windows)</xmp:CreatorTool>
+                </rdf:Description>
+            </rdf:RDF>
+        </x:xmpmeta>
+        <?xpacket end="w"?>
+    </metadata>
+    <defs>
+        <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+            
+            <stop offset="0%" stop-color="#2670FF">
+                <animate attributeName="stop-color" values="#2670FF; #c72cff; #2670FF" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+            <stop offset="100%" stop-color="#c72cff">
+                <animate attributeName="stop-color" values="#c72cff; #2670FF; #c72cff" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+        </linearGradient>
+        <style>
+            @import url(https://db.onlinewebfonts.com/c/89d11a443c316da80dcb8f5e1f63c86e?family=Bauhaus+93);
+            .cls-1 {
+                font-size: 700px;
+                font-family: "Bauhaus 93";
+            }
+        </style>
+    </defs>
+    <text id="layout_1" class="cls-1" x="-13" y="489" fill="url(#logo-gradient)">LS</text>
+</svg>
