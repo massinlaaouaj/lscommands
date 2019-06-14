@@ -5,7 +5,7 @@ $(document).ready(function() {
         console.log("=="+lenguage); //Efectivamente lo guarda i lo veo en la consola
 
         $.ajax({
-            url: 'assets/php/prove.php',
+            url: '../assets/php/prove.php',
 			dataType: 'text',
             type: "post",
 			contentType: 'application/x-www-form-urlencoded',
