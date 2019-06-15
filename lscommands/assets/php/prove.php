@@ -1,5 +1,4 @@
 <?php
-
     //Recoguida de datos
     $language = $_POST["language"];
 	
@@ -7,20 +6,26 @@
 	switch ($language) {
 		
 		case "bash":
-			$dir = 'C:\xampp\htdocs\lscommands\commands\bash\allcommands.txt';
+			$dir = '../../commands/bash/allcommands.txt';
 			$symbol_before = "$ ";
 			$symbol_after = "";
 		break;
 			
 		case "cmd":
-			$dir = 'C:\xampp\htdocs\lscommands\commands\WindowsCMD\cmd.txt';
+			$dir = '../../commands/WindowsCMD/cmd.txt';
 			$symbol_before = "   ";
 			$symbol_after = "";
 		break;
 		
 		case "html":
-			$dir = 'C:\xampp\htdocs\lscommands\commands\html\html.txt';
+			$dir = '../../commands/html/html.txt';
 			$symbol_before = "&lt; ";
+			$symbol_after = "";
+		break;
+		
+		case "css":
+			$dir = '../../commands/css/css.txt';
+			$symbol_before = "{ ";
 			$symbol_after = "";
 		break;
 	}
@@ -60,7 +65,6 @@
             	
                 //Convierte el array en string i a medida que lo va haciendo, es decir, encontrando la frase hace un salto de línea
                 $mostrar = implode("<br>",$matches[0]);
-
                 echo $mostrar . "<br>";
             
             }
