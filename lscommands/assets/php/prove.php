@@ -6,25 +6,25 @@
 	switch ($language) {
 		
 		case "bash":
-			$dir = '../commands/bash/allcommands.txt';
+			$dir = '../../commands/bash/allcommands.txt';
 			$symbol_before = "$ ";
 			$symbol_after = "";
 		break;
 			
 		case "cmd":
-			$dir = '../commands/WindowsCMD/cmd.txt';
+			$dir = '../../commands/WindowsCMD/cmd.txt';
 			$symbol_before = "   ";
 			$symbol_after = "";
 		break;
 		
 		case "html":
-			$dir = '../commands/html/html.txt';
+			$dir = '../../commands/html/html.txt';
 			$symbol_before = "&lt; ";
 			$symbol_after = "";
 		break;
 		
 		case "css":
-			$dir = '../commands/css/css.txt';
+			$dir = '../../commands/css/css.txt';
 			$symbol_before = "{ ";
 			$symbol_after = "";
 		break;
