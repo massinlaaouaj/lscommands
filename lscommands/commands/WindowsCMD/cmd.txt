@@ -256,4 +256,4 @@
 
    XCACLS  Change file and folder permissions
    XCOPY Copy files and folders
-   ::    Comment / Remark
+:: Comment / Remark

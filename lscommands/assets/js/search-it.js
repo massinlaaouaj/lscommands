@@ -14,7 +14,7 @@ $(document).ready(function() {
             var mayus=/[A-Z]/g;
             
             $.ajax({
-                url: 'assets/php/prove.php',
+                url: '../assets/php/prove.php',
                 type: 'POST',
                 data: { search,language }, //Se le enviara las dos variables, ya que una depende de otra y tener dos ajax separados no puede ser porque la otra variable no tiene valor
                 success: function(response) {

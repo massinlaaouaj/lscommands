@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1999.92" height="1999.92" viewBox="0 0 8333 8333">
+    
+    <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        "><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"><xmp:CreatorTool>Adobe Photoshop CC 2018 (Windows)</xmp:CreatorTool></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="w"?></metadata>
+    
+    <defs>
+        <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#2670FF">
+                <animate attributeName="stop-color" values="#2670FF; #c72cff; #2670FF" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#c72cff">
+                <animate attributeName="stop-color" values="#c72cff; #2670FF; #c72cff" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+        </linearGradient>
+        <style>.cls {fill-rule: evenodd;}</style>
+  </defs>
+    
+  <path fill="url(#logo-gradient)" id="ls" data-name="ls" class="cls" d="m 8333,2316 v 2224 c -462.73,-4.46 -732.44,176.44 -797,568 -22,204.31 -44,408.6433 -66,613 -61.56,318.01 -147.79,595.08 -264,854 -283.33,631.27 -774.92,1109.47 -1486,1313 -156.15,44.69 -329.31,60.19 -509,84 -198.57,26.32 -198.5673,26.2843 -608,46.1939 C 4374.0267,8015.1058 4374.05,8015.1 4271,8013 V 5780 c 376.62,2.66 663.08,-33.85 833,-234 288.71,-340.07 222.91,-901.96 299,-1455 30.18,-219.36 69.97,-409.17 144,-579 256.2,-587.76 748.7,-955.19 1429,-1119 166.47,-40.09 342.82,-59.76 531,-82 266.39,-31.48 563.74,2.34 826,5 z M 4176,5784 H 3071 c 0,0 -335.34,-11.26 -530,-117 -179.56,-114.37 -300.67,-381.86 -254,-1302 4.42,-681.55 5,-4048 5,-4048 H 0 v 4921 c 0,0 -19.556,1315.61 630,1955 649.556,639.39 1113.95,804.23 2191,817 1077.05,0.28 1356,2 1356,2 z"/>
+    
+</svg>

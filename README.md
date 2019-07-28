@@ -1,9 +1,9 @@
-<h1> # LSCOMMANDS </h1>
+<h1> LSCOMMANDS </h1>
 
-Page for search and testing commands on bash.
+Page with the purpose of searching and testing commands on bash, cmd, html and many more!
 
 
-  #FUNCTIONS
+   FUNCTIONS
   
    You can search two or more commands using / to split the commands that you write. Example: ls/wget or ls/wget/clear and more<br>
    You can choose your favorite color background<br>
