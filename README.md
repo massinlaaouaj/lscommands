@@ -1,6 +1,6 @@
 <h1> LSCOMMANDS </h1>
 
-Page with the purpose of searching and testing commands on bash, cmd, html and many more!
+Page with the purpose of searching and testing commands on bash, cmd, html and more!
 
 
    FUNCTIONS
