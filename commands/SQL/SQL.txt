@@ -1,0 +1,88 @@
+&quot;ALTER TABLE&quot;      Lets you add columns to a table in a database. (ALTER TABLE table_name [ADD/DROP COLUMN/MODIFY/DROP CONSTRAINT/ADD CONSTRAINT/DISABLE CONSTRAINT/ENABLE CONSTRAINT/RENAME COLUMN/RENAME TO/WHERE] column_name [DATATYPE/PRIMARY KEY/CHECK/TO];)
+&quot;ALTER USER&quot;    Modifies MySQL accounts. It enables authentication, role, SSL/TLS, resource-limit, and password-management properties to be modified for existing accounts. It can also be used to lock and unlock accounts. (ALTER USER user_name [WITH] [RENAME TO/RESET ACCOUNT/PASSWORD {'<pw>'|NULL}/EXPIRE PASSWORD/PASSWORDEXPIRY <days>/AUTH {LOCAL|DEFAULT}/SYSID <userid>/IN GROUP <usergrp>[,<usergrp>…]/IN RESOURCEGROUP <rsg>/VALID UNTIL '<valid_date>'/DEFPRIORITY {CRITICAL|HIGH|NORMAL|LOW|NONE}/MAXPRIORITY {CRITICAL|HIGH|NORMAL|LOW|NONE}/ROWSETLIMIT <rslimit>/SESSIONTIMEOUT <sessiontimeout>/QUERYTIMEOUT <querytimeout>/CONCURRENT SESSIONS <concsessions>/SECURITY LABEL {'<seclabel>|PUBLIC::'}/AUDIT CATEGORY {NONE|'<category>[,<category>…]'}/COLLECT HISTORY {ON|OFF|DEFAULT}/ALLOW CROSS JOIN {TRUE|FALSE|NULL}/ACCESS TIME {ALL|DEFAULT|(<access-time>[,<access-time>…])} ])
+&quot;AVG&quot;    Is an aggregate function that returns the average value for a numeric column. (SELECT AVG(column_name) FROM table_name;)
+&quot;AS&quot;    Is a keyword in SQL that allows you to rename a column or table using an alias. (SELECT column_name AS 'Alias' FROM table_name;)
+&quot;ABS&quot;    Returns the absolute value of X, ABS(-10)>returns>10. (SELECT ABS(2-300) FROM DUAL;)
+
+&quot;BETWEEN&quot;    Operator is used to filter the result set within a certain range. The values can be numbers, text or dates. (SELECT column_name(s) FROM table_name WHERE column_name BETWEEN value_1 AND value_2;)
+
+&quot;CASE&quot;    Statements are used to create different outputs (usually in the SELECT statement). It is SQL’s way of handling if-then logic. (SELECT column_name, CASE WHEN condition THEN 'Result_1' WHEN condition THEN 'Result_2' ELSE 'Result_3' END FROM table_name;)
+&quot;CEIL&quot;    Returns the integer value immediately above or equal of X, CEIL(10.6)>returns>10. (SELECT CEIL(10/3) FROM DUAL;)
+&quot;CHR&quot;    Returns the character that occupies place X in the ASCII table, CHR(75)>returns>'K'. (SELECT CHR(75) FROM DUAL;)
+&quot;CHECK&quot;    Defines a condition that each row must meet. (CREATE TABLE Persons (FirstName varchar(255), Age int, CHECK (Age>=18)); )
+&quot;CONCAT&quot;    or || returns the concatenation of the strings, CONCAT('Hello',' World')>returns>'Hello World'. (SELECT CONCAT('Hello',' World') FROM DUAL;)
+&quot;COUNT&quot;    Is a function that takes the name of a column as an argument and counts the number of rows where the column is not NULL. (SELECT COUNT(column_name) FROM table_name;)
+&quot;CREATE TABLE&quot;    Creates a new table in the database. It allows you to specify the name of the table and the name of each column in the table. (CREATE TABLE table_name (  column_1 datatype, column_2 datatype, column_3 datatype);)
+&quot;CREATE VIEW&quot;    
+&quot;CREATE SESSION&quot;    
+&quot;CREATE TABLESPACE&quot;    
+&quot;CREATE ROLE&quot;    
+&quot;CREATE PROFILE&quot;    
+&quot;CREATE TRIGGER&quot;    
+&quot;CREATE SEQUENCE&quot;    
+&quot;CREATE USER&quot;    
+
+&quot;DELETE&quot;    Statements are used to remove rows from a table. (DELETE FROM table_name WHERE some_column = some_value;)
+&quot;DESC&quot;    or &quot;DESCRIBE&quot;, to see the TYPE of data that is the column, NUMBER, VARCHAR2,... (DESC table_name;)
+&quot;DISTINCT&quot;    specifies that the statement is going to be a query that returns unique values in the specified column(s). (SELECT DISTINCT column_name FROM table_name;)
+&quot;DROP&quot;    Used to drop an existing object in a database. (DROP [TABLE/sequence/FUNCTION/TRIGGER/TABLESPACE/ROLE/PROFILE/USER/VIEW/] name;)
+&quot;DUAL&quot;    Fiction table, is used to see the result of the functions and operations. (SELECT LENGTH('Hola') FROM DUAL;)
+
+&quot;FLOOR&quot;    Returns the largest integer that is less than or equal to the specified numerical expression. (SELECT FLOOR(25.75) FROM DUAL;) >returns> 25
+
+&quot;GRANT&quot;    is a command used to provide access or privileges on the database objects to the users. (GRANT privilage_name ON object_name TO {user_name | PUBLIC | role_name} [WITH GRANT OPTION]; )
+&quot;GROUP BY&quot;    Clause is used to collect data from multiple records and group the result by one or more column. (SELECT AVG(sou) FROM empleats emp,departaments dep WHERE emp.codi_dept=dep.codi_dept GROUP BY dep.ciutat;)
+
+&quot;HAVING&quot;    Was added to SQL because the WHERE keyword could not be used with aggregate functions. (SELECT column_name, COUNT(*) FROM table_name GROUP BY column_name HAVING COUNT(*) > value;)
+
+&quot;IN&quot;    Or maybe. ( IN(a,b,c) )
+&quot;INITCAP&quot;    clause that return the first letter in upper case. (SELECT INITCAP('MASSIN') FROM DUAL;) >returns> Massin
+&quot;INNER JOIN&quot;    Will combine rows from different tables if the join condition is true. (SELECT column_name(s) FROM table_1 short_name1 INNER JOIN table_2 short_name2 ON  short_name1.column_name =  short_name2.column_name;)
+&quot;INSERT INTO&quot;    Used to add a new row to a table. (INSERT INTO table_name (column_1, column_2,...) VALUES (value_1, 'value_2');)
+&quot;INSTR&quot;    clause that returns the position of the letter that we select. (SELECT INSTR('massin', 'i') FROM DUAL;) >returns> 5
+&quot;IS NULL&quot;     operator used with the WHERE clause to test for empty values. (SELECT column_name(s) FROM table_name WHERE column_name IS NULL;)
+&quot;IS NOT NULL&quot;     operator used with the WHERE clause to test for not empty values. (SELECT column_name(s) FROM table_name WHERE column_name IS NOT NULL;)
+
+&quot;JOIN&quot;    Will combine rows from different tables if the join condition is true. (SELECT column_name(s) FROM table_1 short_name1 JOIN table_2 short_name2 ON  short_name1.column_name =  short_name2.column_name;)
+
+&quot;LENGTH&quot;     show the length of words that you write into (''). (SELECT LENGTH('MASSIN') FROM DUAL;)>returns>6
+&quot;LIKE&quot;     is a special operator used with the WHERE clause to search for a specific pattern in a column. (SELECT column_name(s) FROM table_name WHERE column_name LIKE "pattern";)
+&quot;LIMIT&quot;      is a clause that lets you specify the maximum number of rows the result set will have. (SELECT column_name(s) FROM table_name LIMIT number;)
+&quot;LOWER&quot;      clause that become in lower case. (SELECT LOWER(column_name) FROM table_name;)
+&quot;LPAD&quot;     fill in the empty spaces to reach the written length. (SELECT LPAD("Massin", 10, "AB");) >returns> "ABABMassin"
+
+<a href="https://google.es">&quot;MAX&quot;</a>     is a function that takes the name of a column as an argument and returns the most big value or the word that have the last letter of alphabet in that column. (SELECT MAX(column_name) FROM table_name;)
+&quot;MIN&quot;     is a function that takes the name of a column as an argument and returns the smallest value or the word that have the firsts letter of alphabet in that column. (SELECT MIN(column_name) FROM table_name;)
+&quot;MOD&quot;     show the remainder of the division. (SELECT MOD( 4 , 3 ) FROM DUAL;) >returns> 1
+
+&quot;NVL&quot;     is used to replace NULL value with another value. (SELECT NVL(column_name,'missage') FROM table_name)
+
+&quot;OR&quot;     is an operator that filters the result set to only include rows where either condition is true. (SELECT column_name FROM table_name WHERE column_name = value_1 OR column_name = value_2;)
+&quot;ORDER BY&quot;     is a clause that indicates you want to sort the result set by a particular column either alphabetically or numerically. (SELECT column_name FROM table_name ORDER BY column_name ASC | DESC;)
+&quot;OUTER JOIN&quot;     An outer join will combine rows from different tables even if the join condition is not met. Every row in the left table is returned in the result set, and if the join condition is not met, then NULL values are used to fill in the columns from the right table. (SELECT column_name(s) FROM table_1 LEFT JOIN table_2 ON table_1.column_name = table_2.column_name;)
+
+&quot;REPLACE&quot;     Clause that replace what you put into the second parameter to the third. (SELECT REPLACE( 'Massin Laaouaj' , 'Laaouaj' , '**' ) FROM DUAL;) >returns> Massin **
+&quot;REVOKE&quot;     Remove a previously granted or denied permission.
+&quot;ROUND&quot;     is a function that takes a column name and an integer as arguments. It rounds the values in the column to the number of decimal places specified by the integer. (SELECT ROUND(column_name, integer) FROM table_name;)
+&quot;RPAD&quot;     fill in the empty spaces to reach the written length. (SELECT RPAD("Massin", 10, "AB");) >returns> "MassinABAB"
+
+&quot;SELECT&quot;     statements are used to fetch data from a database. Every query will begin with SELECT. (SELECT column_name  FROM table_name;)
+&quot;SQRT&quot;     Returns the square root of X. (SELECT SQRT(5) FROM DUAL;) >returns> 2.23603798
+&quot;SUM&quot;     is a function that takes the name of a column as an argument and returns the sum of all the values in that column. (SELECT SUM(column_name) FROM table_name;)
+&quot;SUBSTR&quot;     Retorna uns caràcters específics d’una cadena començant per una posició específica fins una longitud determinada. (SELECT SUBSTR('Massin Laaouaj', 8, 3) FROM DUAL;) >returns> Laa
+
+&quot;TO_CHAR&quot;     Become date or number into character. (SELECT column_name FROM table_name WHERE TO_CHAR(SYSDATE,'yyyy')='2019';) (SELECT column_name FROM table_name WHERE TO_CHAR(SYSDATE,'yyyy')='2019';) (SELECT TO_CHAR(SYSDATE,'dd/mm/yyyy') FROM DUAL;)
+&quot;TO_DATE&quot;     converts a string value to DATE data type value using the specified format. (SELECT TO_DATE('2012-06-05', 'YYYY-MM-DD') FROM dual;) >returns> 2012-06-05
+&quot;TO_NUMBER&quot;     Become the characters that contents numbers into number. ( [INSERT INTO/SELECT/UPDATE] TO_NUMBER('2019') ... )
+&quot;TRUNC&quot;     Return X decimals TRUNC( n [ , m ] ). (SELECT TRUNC( 1.673 , 1 ) FROM DUAL;) >returns> 1.6      (SELECT TRUNC(1.689) FROM DUAL;) >returns> 1      (SELECT TRUNC( 2292.69 , -2 ) FROM DUAL;) >returns> 2200
+
+&quot;UPDATE&quot;     statements allow you to edit rows in a table. (UPDATE table_name SET some_column = some_value WHERE some_column = some_value;)
+
+&quot;WHERE&quot;     is a clause that indicates you want to filter the result set to include only rows where the following condition is true. (SELECT column_name(s) FROM table_name WHERE column_name operator value;)
+&quot;WITH&quot;     clause lets you store the result of a query in a temporary table using an alias. You can also define multiple temporary tables using a comma and with one instance of the WITH keyword. (WITH temporary_name AS ( SELECT * FROM table_name) SELECT * FROM temporary_name WHERE column_name operator value;)
+
+&quot;*&quot;     all
+&quot;|&quot;     or
+&quot;{ }&quot;     set
+&quot;<>&quot;     Different
+&quot;!=&quot;     Different
